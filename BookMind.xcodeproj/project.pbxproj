@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		E45112822E70FF6C00493C94 /* BookMind2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMind2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45112822E70FF6C00493C94 /* BookMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E449D6412E72401400FCE695 /* Exceptions for "BookMind" folder in "BookMind" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E45112812E70FF6C00493C94 /* BookMind */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E45112842E70FF6C00493C94 /* BookMind2 */ = {
+		E45112842E70FF6C00493C94 /* BookMind */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BookMind2;
+			exceptions = (
+				E449D6412E72401400FCE695 /* Exceptions for "BookMind" folder in "BookMind" target */,
+			);
+			path = BookMind;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +45,7 @@
 		E45112792E70FF6C00493C94 = {
 			isa = PBXGroup;
 			children = (
-				E45112842E70FF6C00493C94 /* BookMind2 */,
+				E45112842E70FF6C00493C94 /* BookMind */,
 				E45112832E70FF6C00493C94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +53,7 @@
 		E45112832E70FF6C00493C94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E45112822E70FF6C00493C94 /* BookMind2.app */,
+				E45112822E70FF6C00493C94 /* BookMind.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E45112812E70FF6C00493C94 /* BookMind2 */ = {
+		E45112812E70FF6C00493C94 /* BookMind */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E451128F2E70FF6E00493C94 /* Build configuration list for PBXNativeTarget "BookMind2" */;
+			buildConfigurationList = E451128F2E70FF6E00493C94 /* Build configuration list for PBXNativeTarget "BookMind" */;
 			buildPhases = (
 				E451127E2E70FF6C00493C94 /* Sources */,
 				E451127F2E70FF6C00493C94 /* Frameworks */,
@@ -61,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E45112842E70FF6C00493C94 /* BookMind2 */,
+				E45112842E70FF6C00493C94 /* BookMind */,
 			);
-			name = BookMind2;
+			name = BookMind;
 			packageProductDependencies = (
 			);
 			productName = BookMind2;
-			productReference = E45112822E70FF6C00493C94 /* BookMind2.app */;
+			productReference = E45112822E70FF6C00493C94 /* BookMind.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E451127D2E70FF6C00493C94 /* Build configuration list for PBXProject "BookMind2" */;
+			buildConfigurationList = E451127D2E70FF6C00493C94 /* Build configuration list for PBXProject "BookMind" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E45112812E70FF6C00493C94 /* BookMind2 */,
+				E45112812E70FF6C00493C94 /* BookMind */,
 			);
 		};
 /* End PBXProject section */
@@ -256,17 +269,19 @@
 				DEVELOPMENT_TEAM = YXBNZJYCSX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookMind/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "BookMind needs photo library access so you can choose a photo for your book cover.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "BookMind needs camera access so you can take a photo for your book cover.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Anvar.BookMind2;
+				PRODUCT_BUNDLE_IDENTIFIER = Anvar.BookMind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -284,17 +299,19 @@
 				DEVELOPMENT_TEAM = YXBNZJYCSX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookMind/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "BookMind needs photo library access so you can choose a photo for your book cover.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "BookMind needs camera access so you can take a photo for your book cover.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Anvar.BookMind2;
+				PRODUCT_BUNDLE_IDENTIFIER = Anvar.BookMind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E451127D2E70FF6C00493C94 /* Build configuration list for PBXProject "BookMind2" */ = {
+		E451127D2E70FF6C00493C94 /* Build configuration list for PBXProject "BookMind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E451128D2E70FF6E00493C94 /* Debug */,
@@ -314,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E451128F2E70FF6E00493C94 /* Build configuration list for PBXNativeTarget "BookMind2" */ = {
+		E451128F2E70FF6E00493C94 /* Build configuration list for PBXNativeTarget "BookMind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E45112902E70FF6E00493C94 /* Debug */,
