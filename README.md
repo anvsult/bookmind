@@ -4,6 +4,10 @@ A Swift app for saving book notes digitally. Snap a photo of the cover to build 
 
 ## Demo Video
 
+
+https://github.com/user-attachments/assets/9fdc5493-21b4-4d20-b0f1-5c2d29d6dd0f
+
+
 ## Description
 
 While reading books, I've always had the following problem: I want to take notes on specific quotes and passages, but at the same time, I don't want to ruin the look and freshness of my book by writing in it. So, I built this app to solve this exact problem. Book Mind allows me to add books to my digital library by simply taking a picture of its cover and then take notes on specific pages and log how the passages made you feel using emojis. It also keeps track of the dates when you take notes, encouraging you to keep the streak going!
